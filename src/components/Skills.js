@@ -30,7 +30,7 @@ const Skills = () => {
   return (
     <>
       <h2 className="font-bold text-8xl mt-64 w-full text-center lg:text-7xl sm:text-6xl xs:text-4xl">Skills</h2>
-      <div className="w-full h-auto relative flex flex-wrap items-center justify-center mt-10 gap-8 md:gap-2 lg:gap-3 sm:gap-1.5 xs:gap-2">
+      <div className="w-full h-auto relative flex flex-wrap items-center justify-center mt-10 gap-8 md:gap-2 lg:gap-3 sm:gap-1.5 xs:gap-1.5">
         <h3 className="text-2xl font-semibold md:text-lg sm:text-base xs:text-sm">Teck Stack |</h3>
         <Skill name="HTML" img={HTML} />
         <Skill name="CSS" img={CSS} />

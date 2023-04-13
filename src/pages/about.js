@@ -51,9 +51,9 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m MoeAdel, a web developer and UI/UX designer with a
+                Hi, I&apos;m MoeAdel, a web developer with a
                 passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
+                digital experiences. With 2 years of experience in the field. I
                 am always looking for new and innovative ways to bring my
                 clients&apos; visions to life.
               </p>
