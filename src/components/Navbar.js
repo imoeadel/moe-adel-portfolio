@@ -37,7 +37,7 @@ const CustomMobileLink = ({ href, title, className = '', toggle }) => {
   }
 
   return (
-    <button href={href} className={`${className} relative group text-light dark:text-dark my-[6px]`} onClick={handleClick}>
+    <button href={href} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>
       {title}
 
       <span
@@ -78,7 +78,7 @@ const Navbar = () => {
           }`}
         ></span>
         <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm translate-y-0.5 ${
-            isOpen ? '-rotate-45 -translate-y-[4px]' : 'translate-y-0.5'
+            isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'
           }`}></span>
       </button>
       <div className='w-full flex justify-between items-center lg:hidden'>
@@ -176,7 +176,7 @@ const Navbar = () => {
 
         <button
           onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
-          className={`ml-6 flex items-center justify-center rounded-full p-1 sm:mx-1 
+          className={`ml-3 flex items-center justify-center rounded-full p-1  
           ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}`}
         >
           {mode === 'dark' ? (

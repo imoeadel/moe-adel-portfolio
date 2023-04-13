@@ -17,17 +17,17 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className="bg-light w-full min-h-screen dark:text-light dark:bg-dark">
-        <Layout className="pt-0 md:tp-16 sm:pt-8">
+        <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 lg:w-full">
-              <Image src={profilePic} alt="Profile" className="w-full h-auto  md:inline-block md:w-full"
+              <Image src={profilePic} alt="Profile" className="w-full h-auto md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
                 50vw"
               />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+            <div className="w-1/2 flex flex-col items-center self-center lg:text-center">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
                 className="!text-6xl !text-left dark:text-light xl:!text-5xl lg:!text-center lg:!text-6xl
@@ -50,7 +50,6 @@ export default function Home() {
                             hover:dark:border-light md:p-2 md:px-4 md:text-base "
                 >
                   Resume
-                  <LinkArrow className='w-6 ml-1' />
                 </Link>
               </div>
             </div>
